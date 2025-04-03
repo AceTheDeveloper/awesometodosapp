@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 const router = require("./routes");
 app.use("/api", router);
 
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 
 const startServer = async () => {
     await connectToMongoDB();
